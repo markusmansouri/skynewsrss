@@ -1,6 +1,6 @@
-package lia.project.skynewsrss.service;
+package lia.projects.skynewsrss.service;
 
-import lia.project.skynewsrss.model.NewsItem;
+import lia.projects.skynewsrss.model.NewsItem;
 import org.springframework.stereotype.Service;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;

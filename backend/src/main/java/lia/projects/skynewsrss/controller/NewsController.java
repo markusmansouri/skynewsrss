@@ -1,7 +1,7 @@
-package lia.project.skynewsrss.controller;
+package lia.projects.skynewsrss.controller;
 
-import lia.project.skynewsrss.model.NewsItem;
-import lia.project.skynewsrss.service.RssService;
+import lia.projects.skynewsrss.model.NewsItem;
+import lia.projects.skynewsrss.service.RssService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +16,6 @@ public class NewsController {
 
     @GetMapping
     public List<NewsItem> getNews() {
-        return rssService.getHeadlines();
+        return rssService.getHeadlines(); // Make sure this returns a List<NewsItem>
     }
 }

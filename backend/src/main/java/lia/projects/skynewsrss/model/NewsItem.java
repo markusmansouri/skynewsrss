@@ -1,4 +1,4 @@
-package lia.project.skynewsrss.model;
+package lia.projects.skynewsrss.model;
 
 public class NewsItem {
     private String title;
