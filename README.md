@@ -4,24 +4,36 @@ About the SkyNewsSRSS Project
 The SkyNewsSRSS project is a simple and practical system designed to read and process news from various RSS feeds, especially from Sky News. This project is developed using Spring Boot and is part of my internship work for the LIA (Learning in Work) course.
 
 Technologies Used:
- Java 17
+Backend: Spring Boot (Java 17+)
+ Frontend: React.js
+ API Communication: Axios
+📄 XML Parsing: DOM Parser (Java)
+🔐 CORS enabled for seamless frontend-backend integration
 
- Spring Boot 3
+# 📰 Sky News RSS Reader
 
- RSS Feed Reader (ROME library)
+This is a simple full-stack application that fetches headlines from the [Sky News RSS feed](https://feeds.skynews.com/feeds/rss/home.xml) and displays them in a user-friendly interface.
 
- JSON Processing
+##  How to Run the Project
 
-Project Structure and Architecture:
-The project follows a layered architecture, which includes:
+ Step 1: Run the Backend (Spring Boot)
 
-Controller layer: Handles incoming requests and sends responses to clients.
+> Make sure Java 17+ and Maven are installed on your system.
 
-Service layer: Contains the core business logic and processing.
-
-Model layer (DTOs/Entities): Defines the data structures and objects used.
-
-Configuration layer: Manages scheduled tasks and main project settings.
-
-Automated Tasks:
-Using Spring’s scheduling capabilities @Scheduled, the project automatically fetches and processes new news items from RSS feeds at defined time intervals.
+step 1. Clone or download the project:
+   git clone https://github.com/YourUsername/skynews-rss-reader.git
+   cd skynews-rss-reader/backend
+Run the backend server using Maven:
+./mvnw spring-boot:run
+The backend will start on http://localhost:8080
+Step 2: Run the Frontend (React)
+Navigate to the frontend directory:
+cd ../frontend
+Install dependencies:
+npm install
+The app will be available at http://localhost:3000.
+npm start
+Step 3 . Start the frontend development server:
+The app will be available at http://localhost:3000
+Contributions
+Pull requests, suggestions, and improvements are welcome! Feel free to fork the repo and submit your changes.
