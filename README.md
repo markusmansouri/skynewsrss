@@ -20,20 +20,20 @@ This is a simple full-stack application that fetches headlines from the [Sky New
 
 > Make sure Java 17+ and Maven are installed on your system.
 
-step 1. Clone or download the project:
+step 2. Clone or download the project:
    git clone https://github.com/YourUsername/skynews-rss-reader.git
    cd skynews-rss-reader/backend
 Run the backend server using Maven:
 ./mvnw spring-boot:run
 The backend will start on http://localhost:8080
-Step 2: Run the Frontend (React)
+Step 3: Run the Frontend (React)
 Navigate to the frontend directory:
 cd ../frontend
 Install dependencies:
 npm install
 The app will be available at http://localhost:3000.
 npm start
-Step 3 . Start the frontend development server:
+Step 4 . Start the frontend development server:
 The app will be available at http://localhost:3000
 Contributions
 Pull requests, suggestions, and improvements are welcome! Feel free to fork the repo and submit your changes.
