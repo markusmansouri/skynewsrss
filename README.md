@@ -17,6 +17,9 @@ This is a simple full-stack application that fetches headlines from the [Sky New
 ##  How to Run the Project
 
  Step 1: Run the Backend (Spring Boot)
+ Run the Spring Boot Application
+ If using a terminal
+ ./mvnw spring-boot:run
 
 > Make sure Java 17+ and Maven are installed on your system.
 
